@@ -1,5 +1,5 @@
 // находим кнопку с классом "create-json" и обрабатываем нажатие этой кнопки
-document.querySelector(".create-json").addEventListener("click", ev => {
+document.querySelector(".create-json").addEventListener("click", (ev) => {
     // любая кнопка в форме имеет тип "submit" по умолчанию, т.е. служит для отправки формы на сервер
     // отправка формы влечет за собой перезагрузку страницы
     // нам это не нужно, поэтому отключаем стандартное поведение
