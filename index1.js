@@ -49,16 +49,3 @@ document.querySelector(".create-json").addEventListener("click", (ev) => {
   },
   { once: true }
 );
-
-// находим кнопку (которая на самом деле ссылка) с классом "get-data" и обрабатываем ее нажатие
-document.querySelector('.get-data').addEventListener('click', () => {
-    // с помощью IIFE и async..await получаем данные и выводим их в консоль в виде таблицы
-    (async () => {
-        const response = await fetch("data.json");
-
-        // разбираем (парсим) ответ
-        const data = await response.json();
-
-        console.table(data);
-    })();
-});
