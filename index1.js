@@ -12,7 +12,7 @@ document.querySelector(".create-json").addEventListener("click", (ev) => {
     // помещаем их в подмассивы в качестве элементов
     const arr = [];
     for (let i = 0; i < inputs.length; i++) {
-        arr.push([inputs[i].value, inputs[i++].value]);
+        arr.push([inputs[i].value, inputs[i].value]);
     }
 
     // проверяем в консоли
