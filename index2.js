@@ -15,7 +15,7 @@ getData("https://panidi.github.io/testwebsite/data.json").then(data => {
     })
 
 // функция создания описания
-const createTest = data => {
+const createDescription = data => {
     // data - это объект из объектов
     // для каждого объекта
     for (const item in data) {
