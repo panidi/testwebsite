@@ -30,7 +30,7 @@ const createDescription = data => {
         const questionTemplate = `
             <div>
                 <h1>Описание:</h1>
-                <p class="descr">$descriptionText}</p>
+                <p class="descr">{$descriptionText}</p>
             </div>
         `;
         
