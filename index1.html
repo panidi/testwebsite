@@ -1,31 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang='ru'>
 <head>
-
 <script src="index1.js"></script>
-    
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
 </head>
 <body>
 <h3>Create JSON</h3>
 
 <!-- основной контейнер -->
 <div class="row main">
-    <h3>Create JSON</h3>
-    <form class="col s12">
+    <form class="input-form">
         <!-- первая пара "ключ-значение" -->
         <div class="row">
-            <div class="input-field col s5">
-                <label for="description">Введите описание:</label>
-                <textarea id="description"></textarea>
+            <div class="input-field">
+                <label for="descr">Введите описание:</label>
+                <textarea id="descr"></textarea>
             </div>
-            <div class="input-field col s2">
         </div>
 
         <!-- кнопки -->
@@ -33,9 +22,11 @@
             <button class="btn waves-effect waves-light create-json">create json
                 <i class="material-icons right">send</i>
             </button>
-            <a class="waves-effect waves-light btn get-data"><i class="material-icons right">cloud</i>get data</a>
+            <a class="get-data"><i>cloud</i>get data</a>
         </div>
     </form>
 </div>
+
+<script src="index1.js"></script>
 </body>
 </html>
